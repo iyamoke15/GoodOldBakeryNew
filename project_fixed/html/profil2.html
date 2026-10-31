@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Old' Bakery - Profil</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="../asset/Logo.png" alt="Good Old' Bakery" width="200" height="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li class="user-icon"><a href="profil1.html">👤</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="profile-main">
+        <section class="profile-section">
+            <div class="profile-container">
+                <div class="profile-avatar">
+                    <span class="avatar-icon">👤</span>
+                </div>
+
+                <div class="profile-greeting">
+                    <h2 id="displayFullname2">Loading...</h2>
+                    <p class="joined-date">Joined 2026</p>
+                </div>
+
+                <div class="profile-details">
+                    <div class="detail-row">
+                        <span class="label">Username</span>
+                        <span class="colon">:</span>
+                        <span class="value" id="displayUsername">-</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Full Name</span>
+                        <span class="colon">:</span>
+                        <span class="value" id="displayFullname">-</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Email Address</span>
+                        <span class="colon">:</span>
+                        <span class="value" id="displayEmail">-</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Birth Date</span>
+                        <span class="colon">:</span>
+                        <span class="value" id="displayDob">-</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Gender</span>
+                        <span class="colon">:</span>
+                        <span class="value" id="displayGender">-</span>
+                    </div>
+                </div>
+
+                <div class="profile-actions">
+                    <a href="profil3.html" class="btn-save">Edit Profile</a>
+                    <button class="btn-logout" id="logoutBtn">Log Out</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../javascript/auth.js"></script>
+    <script src="../javascript/profil2.js"></script>
+</body>
+</html>

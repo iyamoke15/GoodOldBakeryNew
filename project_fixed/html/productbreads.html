@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Old' Bakery - Breads</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="../asset/Logo.png" alt="Good Old' Bakery" width="200" height="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li class="user-icon"><a href="Profil1.html">👤</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="filter-buttons">
+        <a href="product.html"><button>ALL</button></a>
+        <a href="productcakes.html"><button>CAKES</button></a>
+        <a href="productbreads.html" class="active"><button class="active">BREADS</button></a>
+        <a href="productpastries.html"><button>PASTRIES</button></a>
+    </section>
+
+    <section class="search-section">
+        <input type="text" id="searchInput" placeholder="Search Product...">
+        <button onclick="searchProduct()">🔍</button>
+    </section>
+    
+    <section class="products-section">
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <img src="../asset/French Baguette.png" alt="French Baguette" width="300" height="200">
+                <h3>French Baguette</h3>
+                <p>Classic long bread with a crispy crust and soft interior.</p>
+                <span class="price">Rp18.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Classic Brioche.png" alt="Classic Brioche" width="300" height="200">
+                <h3>Classic Brioche</h3>
+                <p>Soft, golden brown buttered egg bread.</p>
+                <span class="price">Rp32.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Country Sourdough.png" alt="Country Sourdough" width="300" height="200">
+                <h3>Country Sourdough</h3>
+                <p>Natural yeast bread with a chewy texture and slightly sour taste.</p>
+                <span class="price">Rp45.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Italian Ciabatta.png" alt="Italian Ciabatta" width="300" height="200">
+                <h3>Italian Ciabatta</h3>
+                <p>A bread with large pores that is perfect for sandwiches.</p>
+                <span class="price">Rp22.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Multi-grain Loaf.png" alt="Multi-grain Loaf" width="300" height="200">
+                <h3>Multi-grain Loaf</h3>
+                <p>Roti gandum sehat yang penuh dengan taburan biji-bijian di atasnya.</p>
+                <span class="price">Rp38.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Rosemary Focaccia.png" alt="Rosemary Focaccia" width="300" height="200">
+                <h3>Rosemary Focaccia</h3>
+                <p>Savory flatbread topped with rosemary leaves and olive oil.</p>
+                <span class="price">Rp28.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Dark Rye Bread.png" alt="Dark Rye Bread" width="300" height="200">
+                <h3>Dark Rye Bread</h3>
+                <p>A dense and nutrient-rich rye bread.</p>
+                <span class="price">Rp42.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Japanese Milk Bread.png" alt="Japanese Milk Bread" width="300" height="200">
+                <h3>Japanese Milk Bread</h3>
+                <p>Very soft and sweet pillow bread typical of Asia.</p>
+                <span class="price">Rp35.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Sesame Bagel.png" alt="Sesame Bagel" width="300" height="200">
+                <h3>Sesame Bagel</h3>
+                <p>Roti berbentuk cincin dengan taburan wijen yang melimpah.</p>
+                <span class="price">Rp15.000</span>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="../asset/Logo.png" alt="Good Old' Bakery" width="200" height="100">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="location.html">Location</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>📧 goodoldbakery@gmail.com</p>
+                <p>📞 0822 2222 2222</p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <p>FB: goodoldbakery</p>
+                <p>IG: goodoldbakery</p>
+                <p>TW: goodoldbakery</p>
+                <p>TK: goodoldbakery</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Good Old' Bakery. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="../javascript/auth.js"></script> 
+    <script src="../javascript/productbreads.js"></script>
+</body>
+</html>

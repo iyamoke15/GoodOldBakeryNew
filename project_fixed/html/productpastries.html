@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Old' Bakery - Pastries</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="../asset/Logo.png" alt="Good Old' Bakery" width="200" height="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li class="user-icon"><a href="Profil1.html">👤</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="filter-buttons">
+        <a href="product.html"><button>ALL</button></a>
+        <a href="productcakes.html"><button>CAKES</button></a>
+        <a href="productbreads.html"><button>BREADS</button></a>
+        <a href="productpastries.html" class="active"><button class="active">PASTRIES</button></a>
+    </section>
+
+    <section class="search-section">
+        <input type="text" id="searchInput" placeholder="Search Product...">
+        <button onclick="searchProduct()">🔍</button>
+    </section>
+
+    <section class="products-section">
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <img src="../asset/Pain au Chocolat.png" alt="Pain au Chocolat" width="300" height="200">
+                <h3>Pain au Chocolat</h3>
+                <p>Pastri khas Prancis yang berlapis-lapis dengan potongan cokelat batang di dalamnya.</p>
+                <span class="price">Rp28.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Almond Croissant.png" alt="Almond Croissant" width="300" height="200">
+                <h3>Almond Croissant</h3>
+                <p>Crispy croissant with almond cream filling and sprinkled with sliced almonds and powdered sugar on top.</p>
+                <span class="price">Rp35.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Raisin Danish.png" alt="Raisin Danish" width="300" height="200">
+                <h3>Raisin Danish</h3>
+                <p>Sweet swirl-shaped pastry with a soft raisin filling in each layer.</p>
+                <span class="price">Rp24.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Chocolate Eclair.png" alt="Chocolate Eclair" width="300" height="200">
+                <h3>Chocolate Eclair</h3>
+                <p>Long pastries with soft cream filling dipped in melted, shiny chocolate.</p>
+                <span class="price">Rp32.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Signature Macarons.png" alt="Signature Macarons" width="300" height="200">
+                <h3>Signature Macarons</h3>
+                <p>Small meringue-based cookies with a variety of colors and a soft ganache filling.</p>
+                <span class="price">Rp18.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Classic Croissant.png" alt="Classic Croissant" width="300" height="200">
+                <h3>Classic Croissant</h3>
+                <p>Pastri original yang sangat flaky dan beraroma mentega yang kuat, cocok untuk sarapan.</p>
+                <span class="price">Rp18.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/English Scone.png" alt="English Scone" width="300" height="200">
+                <h3>English Scone</h3>
+                <p>A traditional dense cake with a slightly crumbly texture, usually served with afternoon tea.</p>
+                <span class="price">Rp22.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Apricot Danish.png" alt="Apricot Danish" width="300" height="200">
+                <h3>Apricot Danish</h3>
+                <p>Crispy pastry with apricot filling in the middle and a beautiful drizzle of melted sugar.</p>
+                <span class="price">Rp26.000</span>
+            </div>
+
+            <div class="product-card">
+                <img src="../asset/Mille-feuille.png" alt="Mille-feuille" width="300" height="200">
+                <h3>Mille-feuille</h3>
+                <p>Legendary layered cake with a combination of crispy thin pastry sheets and vanilla cream.</p>
+                <span class="price">Rp38.000</span>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="../asset/Logo.png" alt="Good Old' Bakery" width="200" height="100">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="location.html">Location</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>📧 goodoldbakery@gmail.com</p>
+                <p>📞 0822 2222 2222</p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <p>FB: goodoldbakery</p>
+                <p>IG: goodoldbakery</p>
+                <p>TW: goodoldbakery</p>
+                <p>TK: goodoldbakery</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Good Old' Bakery. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="../javascript/productpastries.js"></script>
+    <script src="../javascript/auth.js"></script> 
+</body>
+</html>
